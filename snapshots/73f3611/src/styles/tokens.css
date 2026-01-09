@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Pretendard";
+  src: url("../assets/font/PretendardVariable.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* =========================
+   Typography Tokens
+========================= */
+:root {
+  /* Font Family */
+  --font-family-base: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui,
+    sans-serif;
+
+  /* Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Font Sizes */
+  --font-size-24: 24px;
+  --font-size-16: 16px;
+  --font-size-14: 14px;
+  --font-size-12: 12px;
+
+  /* Line Heights */
+  --line-height-auto: normal;
+  --line-height-22: 22px;
+}
+
+/* =========================
+   Typography System Tokens
+========================= */
+:root {
+  --bold24: var(--font-weight-bold) var(--font-size-24) /
+    var(--line-height-auto) var(--font-family-base);
+  --bold16: var(--font-weight-bold) var(--font-size-16) /
+    var(--line-height-auto) var(--font-family-base);
+  --bold14: var(--font-weight-bold) var(--font-size-14) /
+    var(--line-height-auto) var(--font-family-base);
+  --bold12: var(--font-weight-bold) var(--font-size-12) /
+    var(--line-height-auto) var(--font-family-base);
+
+  --medium16: var(--font-weight-medium) var(--font-size-16) /
+    var(--line-height-22) var(--font-family-base);
+  --medium14: var(--font-weight-medium) var(--font-size-14) /
+    var(--line-height-auto) var(--font-family-base);
+  --medium12: var(--font-weight-medium) var(--font-size-12) /
+    var(--line-height-auto) var(--font-family-base);
+}
+
+/* =========================
+   Color Tokens – Grayscale
+========================= */
+:root {
+  --grayscale-white-70: #ffffffb3;
+  --grayscale-white: #ffffff;
+  --grayscale-50: #f5f7f9;
+  --grayscale-100: #d2dae0;
+  --grayscale-200: #879298;
+  --grayscale-300: #6b6e91;
+  --grayscale-400: #5f6e76;
+  --grayscale-500: #4b5960;
+  --grayscale-black: #14121b;
+
+  /* Brand (Blue) */
+  --blue-100: #7890e7;
+  --blue-500: #4362d0;
+}
